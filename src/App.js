@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import logo from './bookmyshow-logo.png';
 import './App.css';
-import { MMMCShowtimes } from './Apiconfig';
+
 import LoginContainer from './LoginContainer';
 import axios from 'axios';
+import { loginApi } from './Apiconfig';
 
 class App extends Component {
   render() {

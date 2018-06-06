@@ -1,1 +1,1 @@
-export const MMMCShowtimes = `https://in.bookmyshow.com/pwa/api/de/showtimes/byvenue?venueCode=MMMC&dateCode=20180601&regionCode=mumbai`;
+export const loginApi = `https://in.bookmyshow.com/pwa/api/is/auth/login`;

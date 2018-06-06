@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import './Login.css'
-import Form  from './Formfield'
+import "./Login.css";
+import Form from "./Formfield";
 
 class LoginContainer extends Component {
   render() {
@@ -8,18 +8,20 @@ class LoginContainer extends Component {
       <div className="Login-container">
         <h1 className="login">Login</h1>
         <div className="env">
-        <div className = "dev"><h2>DEV</h2>
-        <Form />
+          <div className="dev">
+            <h2>DEV</h2>
+            <Form />
+          </div>
+          <div className="SIT">
+            <h2>SIT</h2>
+            <Form />
+          </div>
+          <div className="Preprod">
+            <h2>Preprod</h2>
+            <Form />
+          </div>
         </div>
-        <div className = "SIT"><h2>SIT</h2>
-        <Form />
-        </div>
-        <div className = "Preprod"><h2>Preprod</h2>
-        <Form />
-        </div>
-        </div>
-        </div>
-      
+      </div>
     );
   }
 }
