@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./Form.css";
+import { loginApi } from './Apiconfig';
+import axios from 'axios';
 
 class Form extends Component {
     constructor() {
@@ -9,6 +11,10 @@ class Form extends Component {
 
   handleClick(e) {
     e.preventDefault();
+    axios.post(loginApi, 
+      {"strEmail":"nijilap@yahoo.com","strPassword":"nijiln#2","userDetail":null}
+    )
+    .then(response => console.log(response))
   }
   render() {
     return (

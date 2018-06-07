@@ -1,1 +1,1 @@
-export const loginApi = `https://in.bookmyshow.com/pwa/api/is/auth/login`;
+export const loginApi = `http://localhost:8080/pwa/api/is/auth/login`;
