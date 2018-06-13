@@ -1,1 +1,1 @@
-export const loginApi = `http://localhost:8080/pwa/api/is/auth/login`;
+export const loginApi = `http://localhost:9002/login`;
