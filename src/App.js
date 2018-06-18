@@ -5,6 +5,7 @@ import './App.css';
 import LoginContainer from './LoginContainer';
 import axios from 'axios';
 import { loginApi } from './Apiconfig';
+import TransidButton from './TransidButton';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <h1 className="App-title">TransactionID Generator</h1>
         </header>
         <LoginContainer />
+        <TransidButton />
       </div>
     );
   }
